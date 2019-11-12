@@ -6,7 +6,7 @@ def PENLTY():
     print("\n")
     print("start of PENLTY")
 
-    G=[0 for i in range(50)]
+    G=[0 for i in range(96)]
 
     #Allocate values to the G-vector
     # Start of the first G-block
