@@ -1,0 +1,1279 @@
+{
+    "IDENT": "Reliance 10000",
+    "TNODE": {
+        "inputType": "text",
+        "displayName": "Terminal Node",
+        "panelName": "t146-1",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "H1",
+        "B": "X1"
+  
+    },
+    "SRATE": {
+        "inputType": "number",
+        "displayName": "Rated Power",
+        "panelName": "t146-1",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 10.00,
+        "B": 10.00
+	
+        
+    },
+    "UNLINE": {
+        "inputType": "number",
+        "displayName": "Rated Voltage",
+        "panelName": "t146-1",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 69.000,
+        "B": 13.200
+        
+    },
+    "KCON": {
+        "inputType": "select",
+        "displayName": "Connection",
+        "panelName": "t146-1",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "D",
+        "B": "Y"
+        
+    },
+    "KTYPRW": {
+        "inputType": "select",
+        "displayName": "Regulation Type",
+        "panelName": "t146-1",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "L",
+        "B": "NO",
+        "C": "NO",
+        "D": "NO"
+    },
+    "NPSTEP": {
+        "inputType": "number",
+        "displayName": "No.of Plus Steps ",
+        "panelName": "t146-1",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 2,
+        "B": 0
+        
+    },
+    "NMSTEP": {
+        "inputType": "number",
+        "displayName": "No.of Minus Steps",
+        "panelName": "t146-1",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 2,
+        "B": 0
+
+        
+    },
+    "PUSTEP": {
+        "inputType": "number",
+        "displayName": "Step size(%)",
+        "panelName": "t146-1",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 2.500,
+        "B": 0.000
+        
+    },
+    "SLINE": {
+        "inputType": "number",
+        "displayName": "Short circuit power(GVA)",
+        "panelName": "t146-1",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 10.0,
+        "B": 10.0
+  
+    },
+    "USURG": {
+        "inputType": "number",
+        "displayName": "BIL(kV)",
+        "panelName": "t146-1",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 350,
+        "B": 110
+
+    },
+    "FREQ": {
+        "inputType": "number",
+        "displayName": "Freq",
+        "panelName": "t146-1",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 60
+    },
+    "NPHAS": {
+        "inputType": "select",
+        "displayName": "Phases",
+        "panelName": "t146-1",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 3
+    },
+    "RWILI": {
+        "inputType": "number",
+        "displayName": "Wdg/lmb",
+        "panelName": "t146-1",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 2
+    },
+    "TYPREG": {
+        "inputType": "select",
+        "displayName": "CFR/VFR",
+        "panelName": "t146-1",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "CFR"
+    },
+    "KCOOL": {
+        "inputType": "text",
+        "displayName": "Cooling type",
+        "panelName": "t146-1",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "ONAF"
+    },
+    "FONAN": {
+        "inputType": "number",
+        "displayName": "Self cool ratio",
+        "panelName": "t146-1",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 1.50
+    },
+    "MNLCOD": {
+        "inputType": "text",
+        "displayName": "Cost code",
+        "panelName": "t146-1",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "YF"
+    },
+    "CPUFIX": {
+        "inputType": "number",
+        "displayName": "Fix price",
+        "panelName": "t146-1",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 0.0
+    },
+    "CPUIND": {
+        "inputType": "number",
+        "displayName": "Re-opt margin(%)",
+        "panelName": "t146-1",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 0.00
+    },
+    "CALCT": {
+        "inputType": "number",
+        "displayName": "Loss calc at step",
+        "panelName": "t146-1",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 0
+    },
+    "EVALP0": {
+        "inputType": "number",
+        "displayName": "Eval P0",
+        "panelName": "t146-1",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 2860
+    },
+    "EVALPK": {
+        "inputType": "number",
+        "displayName": "Eval PK",
+        "panelName": "t146-1",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 1710
+    },
+    "OPERAT": {
+        "inputType": "select",
+        "displayName": "Oper.xtics",
+        "panelName": "t146-1",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "YES"
+    },
+    "DETPRE": {
+        "inputType": "select",
+        "displayName": "Det.costs",
+        "panelName": "t146-1",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "YES"
+    },
+    "WNOD1": {
+        "inputType": "text",
+        "displayName": "Top node",
+        "panelName": "t146-2",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "X1",
+        "B": "H1"
+        
+    },
+    "WNOD2": {
+        "inputType": "text",
+        "displayName": "Bottom node",
+        "panelName": "t146-2",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "X0",
+        "B": "H2"
+        
+    },
+    "KWIFUN": {
+        "inputType": "select",
+        "displayName": "Function code",
+        "panelName": "t146-2",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "M",
+        "B": "MV"
+        
+    },
+    "DUYOKE": {
+        "inputType": "number",
+        "displayName": "Yoke dist(Top)",
+        "panelName": "t146-2",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 83,
+        "B": 83
+        
+    },
+    "DLYOKE": {
+        "inputType": "select",
+        "displayName": "Yoke dist(Bottom)",
+        "panelName": "t146-2",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 83,
+        "B": 83
+      
+    },
+    "BDUCT": {
+        "inputType": "number",
+        "displayName": "Main duct width",
+        "panelName": "t146-2",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 13,
+        "B": 30       
+    },
+    "FRACT": {
+        "inputType": "number",
+        "displayName": "Winding fraction",
+        "panelName": "t146-2",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 1.000,
+        "B": 1.000
+     
+    },
+    "CBLTYP": {
+        "inputType": "select",
+        "displayName": "Cable type",
+        "panelName": "t146-2",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "TC",
+        "B": "SP"
+    },
+    "BPART": {
+        "inputType": "number",
+        "displayName": "Strand(radial)",
+        "panelName": "t146-2",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 2.20,
+        "B": 2.55
+      
+    },
+    "MXCURD": {
+        "inputType": "number",
+        "displayName": "Max current density",
+        "panelName": "t146-2",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 3.50,
+        "B": 3.50  
+    },
+    "TENSM": {
+        "inputType": "number",
+        "displayName": "Max tens.Sigma0.2",
+        "panelName": "t146-2",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 90,
+        "B": 90
+        
+    },
+    "PRESSM": {
+        "inputType": "number",
+        "displayName": "Max comp.Sigma0.2",
+        "panelName": "t146-2",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 40.0,
+        "B": 40.0
+    },
+    "WNDOPT": {
+        "inputType": "select",
+        "displayName": "Optimize",
+        "panelName": "t146-2",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "YES",
+        "B": "YES"
+    },
+    "FILLF": {
+        "inputType": "number",
+        "displayName": "Space factor",
+        "panelName": "t146-2",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 0.5326,
+        "B": 0.5003
+        
+    },
+    "BWIND": {
+        "inputType": "number",
+        "displayName": "Winding width",
+        "panelName": "t146-2",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 51.1,
+        "B": 67.0
+        
+    },
+    "ACOND0": {
+        "inputType": "number",
+        "displayName": "Conductor area",
+        "panelName": "t146-2",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 188.73,
+        "B": 24.31
+    },
+    "XREA": {
+        "headingName": "Current Limiting Reactors(%)",
+        "termL1": {
+            "panelName": "t146-1",
+            "editableStatus": true,
+            "defaultValue": "",
+            "displayStatus": true,
+            "units": "",
+            "displayName": "Terml1",
+            "inputType": "number",
+            "A": 0
+        },
+        "termL2": {
+            "panelName": "t146-1",
+            "editableStatus": true,
+            "defaultValue": "",
+            "displayStatus": true,
+            "units": "",
+            "displayName": "Terml2",
+            "inputType": "number",
+            "A": 0
+        },
+        "termL3": {
+            "panelName": "t146-1",
+            "editableStatus": true,
+            "defaultValue": "",
+            "displayStatus": true,
+            "units": "",
+            "displayName": "Terml3",
+            "inputType": "number",
+            "A": 0
+        }
+    },
+    "HLIMB": {
+        "option": {
+            "inputType": "select",
+            "displayName": "",
+            "panelName": "t146-2",
+            "editableStatus": true,
+            "defaultValue": "",
+            "displayStatus": true,
+            "units": "",
+            "A": "YES"
+        },
+        "value": {
+            "inputType": "number",
+            "displayName": "",
+            "panelName": "t146-2",
+            "editableStatus": true,
+            "defaultValue": "",
+            "displayStatus": true,
+            "units": "",
+            "A": 1138
+        }
+    },
+    "DCORE": {
+        "option": {
+            "inputType": "select",
+            "displayName": "",
+            "panelName": "t146-2",
+            "editableStatus": true,
+            "defaultValue": "",
+            "displayStatus": true,
+            "units": "",
+            "A": "YES"
+        },
+        "value": {
+            "inputType": "number",
+            "displayName": "",
+            "panelName": "t146-2",
+            "editableStatus": true,
+            "defaultValue": "",
+            "displayStatus": true,
+            "units": "",
+            "A": 412
+        }
+    },
+    "BLIMB": {
+        "option": {
+            "inputType": "select",
+            "displayName": "",
+            "panelName": "t146-2",
+            "editableStatus": true,
+            "defaultValue": "",
+            "displayStatus": true,
+            "units": "",
+            "A": "YES"
+        },
+        "value": {
+            "inputType": "number",
+            "displayName": "",
+            "panelName": "t146-2",
+            "editableStatus": true,
+            "defaultValue": "",
+            "displayStatus": true,
+            "units": "",
+            "A": 1.7500
+        }
+    },
+    "USHORE": {
+        "option": {
+            "inputType": "select",
+            "displayName": "",
+            "panelName": "t146-2",
+            "editableStatus": true,
+            "defaultValue": "",
+            "displayStatus": true,
+            "units": "",
+            "A": "NO"
+        },
+        "value": {
+            "inputType": "number",
+            "displayName": "",
+            "panelName": "t146-2",
+            "editableStatus": true,
+            "defaultValue": "",
+            "displayStatus": true,
+            "units": "",
+            "A": 6.63
+        }
+    },
+    "LAYOUT": {
+        "inputType": "select",
+        "displayName": "Phases",
+        "panelName": "t146-2",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "NO"
+    },
+    "KWITYP": {
+        "inputType": "select",
+        "displayName": "Winding type",
+        "panelName": "t146-3",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "S1",
+        "B": "CD"
+    },
+    "NGROUP": {
+        "inputType": "number",
+        "displayName": "No of parallel Grps",
+        "panelName": "t146-3",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 1,
+        "B": 1
+    },
+    "CONMAT": {
+        "inputType": "select",
+        "displayName": "Conductor material",
+        "panelName": "t146-3",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "CU",
+        "B": "CU"
+    },
+    "HCLAC": {
+        "inputType": "number",
+        "displayName": "Strand dim(ax)",
+        "panelName": "t146-3",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 4.25,
+        "B": 9.75
+    },
+    "COVSTR": {
+        "inputType": "number",
+        "displayName": "Covering(strand)",
+        "panelName": "t146-3",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 0.00,
+        "B": 0.00
+    },
+    "COVCBL": {
+        "inputType": "number",
+        "displayName": "Covering(cable)",
+        "panelName": "t146-3",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 0.61,
+        "B": 0.80
+    },
+    "CONVAR": {
+        "inputType": "select",
+        "displayName": "Varnished cond cu",
+        "panelName": "t146-3",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "NO",
+        "B": "NO"
+    },
+    "TCEPOX": {
+        "inputType": "select",
+        "displayName": "Epoxy glue(TC)",
+        "panelName": "t146-3",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "NO",
+        "B": "NO"
+    },
+    "EXTRAR": {
+        "inputType": "number",
+        "displayName": "Extra axial Insul",
+        "panelName": "t146-3",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 80,
+        "B": 40
+    },
+    "HPART": {
+        "inputType": "number",
+        "displayName": "Spacer height",
+        "panelName": "t146-3",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 3.0,
+        "B": 4.0
+    },
+    "NCDUCT": {
+        "inputType": "number",
+        "displayName": "No of cool.dcts",
+        "panelName": "t146-3",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 0,
+        "B": 0
+    },
+    "XOILGR": {
+        "inputType": "number",
+        "displayName": "Oil guiding rng",
+        "panelName": "t146-3",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 4,
+        "B": 4
+    },
+    "COMBWI": {
+        "inputType": "select",
+        "displayName": "Comb. winding",
+        "panelName": "t146-3",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "NO",
+        "B": "NO"
+    },
+    "CKTANK": {
+        "inputType": "text",
+        "displayName": "Tank type",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "TBA1"
+    },
+    "OPTTNK": {
+        "inputType": "select",
+        "displayName": "Tank dim.free",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "YES"
+    },
+    "DWITA": {
+        "inputType": "number",
+        "displayName": "Distance wdg-tank",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 310.0
+    },
+    "BTANK": {
+        "inputType": "number",
+        "displayName": "Tank width",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 1353
+    },
+    "DPHAS": {
+        "inputType": "number",
+        "displayName": "Insulation distance Ph-ph",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 42
+    },
+    "DCOCOV": {
+        "inputType": "number",
+        "displayName": "Distance core-cover",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 800.0
+    },
+    "HTANK": {
+        "inputType": "number",
+        "displayName": "Tank height",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 2762
+    },
+    "DPHSL": {
+        "inputType": "number",
+        "displayName": "Insul.distance Ph-sl",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 0
+    },
+    "EXTANK": {
+        "inputType": "number",
+        "displayName": "Tank extension",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": -260.0
+    },
+    "LTANK": {
+        "inputType": "number",
+        "displayName": "Tank length",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 2643
+    },
+    "SNDSCR": {
+        "inputType": "select",
+        "displayName": "Sound screen? Y/N",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "NO"
+    },
+    "ALSHLD": {
+        "inputType": "select",
+        "displayName": "Field screen? Y/N",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "NO"
+    },
+    "CORESE": {
+        "inputType": "number",
+        "displayName": "Core series",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 130
+    },
+    "CORTYP": {
+        "inputType": "select",
+        "displayName": "Core type",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "T"
+    },
+    "TWSUP": {
+        "inputType": "number",
+        "displayName": "Wind.sup height",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 0
+    },
+    "UMAXPU": {
+        "inputType": "number",
+        "displayName": "Overvolt(%)",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 0.0
+    },
+    "UTURN": {
+        "inputType": "number",
+        "displayName": "UturnO",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 0
+    },
+    "QMONT": {
+        "inputType": "number",
+        "displayName": "Tot.assy force(MN)",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 0.0
+    },
+    "COREMA": {
+        "inputType": "text",
+        "displayName": "Laminat.quality",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "EXT"
+    },
+    "HYOKAD": {
+        "inputType": "number",
+        "displayName": "Hyokeadd",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 0.00
+    },
+    "NCOOLX": {
+        "inputType": "number",
+        "displayName": "Cool ducts(if fixed)",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 0.0
+    },
+    "KBAND": {
+        "inputType": "text",
+        "displayName": "Limb banding",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "STEEL"
+    },
+    "STEPLA": {
+        "inputType": "select",
+        "displayName": "Step-lap",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "NO"
+    },
+    "TEMPLO": {
+        "inputType": "number",
+        "displayName": "Loss.temp.(C)",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 75
+    },
+    "STACKF": {
+        "inputType": "number",
+        "displayName": "Stack factor",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 0.000
+    },
+    "BLDING": {
+        "inputType": "text",
+        "displayName": "Core blading",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": "2/2"
+    },
+    "TOPDTO": {
+        "inputType": "number",
+        "displayName": "Top.oil temprise",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 65
+    },
+    "SPFADU": {
+        "inputType": "number",
+        "displayName": "Space factor",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 0.950
+    },
+    "TWINDM": {
+        "inputType": "number",
+        "displayName": "Max.mean.wdg.temp.rise",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 65
+    },
+    "TTOILM": {
+        "inputType": "number",
+        "displayName": "Max.top.oil.temp.rise",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 65
+    },
+    "HLIMBM": {
+        "inputType": "number",
+        "displayName": "Max.limb height",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 2650
+    },
+    "HLIMBN": {
+        "inputType": "number",
+        "displayName": "Min.limb height",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 600
+    },
+    "DLMBMA": {
+        "inputType": "number",
+        "displayName": "Max core diameter",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 0
+    },
+    "DLMBMI": {
+        "inputType": "number",
+        "displayName": "Min core diameter",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 0
+    },
+    "GTRPM": {
+        "inputType": "number",
+        "displayName": "Max transport mass",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 500
+    },
+    "SOUNDM": {
+        "inputType": "number",
+        "displayName": "Max.sound power I.",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 0.0
+    },
+    "RLTANM": {
+        "inputType": "number",
+        "displayName": "MAx.tank length",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 7300
+    },
+    "BTANKM": {
+        "inputType": "number",
+        "displayName": "Max.tank width",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 3200
+    },
+    "HTANKM": {
+        "inputType": "number",
+        "displayName": "Min tank height",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 5100
+    },
+    "MAXP0": {
+        "inputType": "number",
+        "displayName": "Max no-load losses",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 0.0
+    },
+    "MAXPK": {
+        "inputType": "number",
+        "displayName": "Max load losses",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 0.0
+    },
+    "BOOSMA": {
+        "inputType": "number",
+        "displayName": "Booster mass",
+        "panelName": "t146-5",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 4348
+    },
+    "BOOSVO": {
+        "inputType": "number",
+        "displayName": "Booster volume",
+        "panelName": "t146-5",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 2026
+    },
+    "BOOSRE": {
+        "inputType": "number",
+        "displayName": "Equivalent resistance",
+        "panelName": "t146-5",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 4348
+    },
+    "BOOSTR": {
+        "inputType": "number",
+        "displayName": "Turns ratio",
+        "panelName": "t146-5",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": true,
+        "units": "",
+        "A": 2026
+    },
+
+
+
+    "CGRAD": {
+        "inputType": "number",
+        "displayName": "",
+        "panelName": "t146-1",
+        "editableStatus": false,
+        "defaultValue": "",
+        "displayStatus": false,
+        "units": "",
+        "A": 20
+    },
+    "T146AC": {
+        "inputType": "text",
+        "displayName": "",
+        "panelName": "t146-4",
+        "editableStatus": false,
+        "defaultValue": "",
+        "displayStatus": false,
+        "units": "",
+        "A": "Y"
+    },
+    "CVARN": {
+        "inputType": "text",
+        "displayName": "",
+        "panelName": "t146-4",
+        "editableStatus": false,
+        "defaultValue": "",
+        "displayStatus": false,
+        "units": "",
+        "A": "YES"
+    },
+    "BLTOPM": {
+        "inputType": "number",
+        "displayName": "",
+        "panelName": "t146-4",
+        "editableStatus": true,
+        "defaultValue": "",
+        "displayStatus": false,
+        "units": "",
+        "A": 1.7500
+    },
+
+
+
+    "DIRECT": "NULL",
+    "DELYEAR": "NULL",
+    "DELMONTH": "NULL",
+    "REOPT": {
+        "A": "YES",
+        "B": "YES",
+        "C": "YES",
+        "D": "YES"
+    },
+    "ZOPTION": "NULL",
+    "MVAOA": "NULL",
+    "MVAFA1": "NULL",
+    "MVAFA2": "NULL",
+    "LV1MVA": "NULL",
+    "LV2MVA": "NULL",
+    "RISE1": "NULL",
+    "RISE2": "NULL",
+    "HVKV1": "NULL",
+    "XVKV1": "NULL",
+    "TVKV1": "NULL",
+    "HVCON": "NULL",
+    "XVCON": "NULL",
+    "TVCON": "NULL",
+    "HVBIL": "NULL",
+    "XVBIL_1": "NULL",
+    "XVBIL_2": "NULL",
+    "DETC": "NULL",
+    "DETCPOS": "NULL",
+    "DETNEG": "NULL",
+    "DETCPCT": "NULL",
+    "LTC": "NULL",
+    "LTCPOS": "NULL",
+    "LTCNEG": "NULL",
+    "LTCPCT": "NULL",
+    "LTCTYPE": "NULL",
+    "REACT": "NULL",
+    "BASTR": "NULL",
+    "EVALCU": "NULL",
+    "EVALFE": "NULL",
+    "CUKW": "NULL",
+    "CRKW": "NULL",
+    "SHIPYYMM": "NULL",
+    "BSTRLL": "NULL",
+    "LTCRCAP": "NULL",
+    "HVKV2": "NULL",
+    "XVKV2": "NULL",
+    "CLASSCOD": "NULL",
+    "COOLEQIP": "NULL",
+    "TERMNO": {
+        "A": "L1",
+        "B": "S3",
+        "C": "CD",
+        "D": "SLL",
+        "E": "NULL",
+        "F": "NULL"
+    },
+    "NLOOPS" : "NULL"
+}
